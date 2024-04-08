@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg shadow border m-1">
+      <div class="text-center">
+        <h2 class="m-lg-1">About Me</h2>
+        <img src="../../assets/profil.jpeg" alt="profile picture"
+          width="256" height="256" class="rounded-circle m-lg-3">
+        <p style="text-align: justify;">I am a hard working and dedicated
+          software developer, having a passion
+          for web programming, with strong foundation in Computer Science, two+ years of professional experience and demonstrated expertise
+          in developing scalable software solutions using Java programming language.
+          I want to make an impact and to improve
+          my skills by working on meaningful
+          projects that contributes to society.</p>
+      </div>
+    </div>
+
+    <div class="col-lg shadow border m-1">
+      <div class="text-center">
+        <h2 class="m-lg-1">Featured Project</h2>
+        <h4>{{featuredProject.name}}</h4>
+
+        <carousel>
+          <div *ngFor="let picture of featuredProject.pictures">
+            <slide><img src={{picture}} alt="slide" style="display: block; width: 100%"></slide>
+          </div>
+        </carousel>
+
+        <p class="mt-2" style="text-align: justify;">{{featuredProject.summary}}</p>
+        <h5>Visit the Portfolio section to learn more!</h5>
+      </div>
+    </div>
+  </div>
+</div>
