@@ -1,6 +1,6 @@
 # Portfolio-website
 
-An Angular app that manages projects created by me and offers informations about my experience. The app uses Firebase for a fake REST server and deployment.<br><br>
+An Angular app that manages projects created by me and offers informations about my experience. The app uses Firebase for a real time database and deployment.<br><br>
 
 Features:<br>
 -Landing page with my profile<br>
